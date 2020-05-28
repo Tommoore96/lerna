@@ -1,0 +1,3 @@
+[submodule "packages/in2plane"] 
+  path = packages/in2plane 
+  url = https://github.com/Tommoore96/in2plane.git
