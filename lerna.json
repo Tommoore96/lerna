@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "packages/in2plane/",
+    "packages/my-ops/lib/index.js"
+  ],
+  "version": "independent"
+}
