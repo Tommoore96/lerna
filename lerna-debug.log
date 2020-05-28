@@ -1,10 +1,11 @@
-0 silly argv { _: [ 'run' ],
-0 silly argv   lernaVersion: '3.22.0',
-0 silly argv   '$0': '/usr/local/bin/lerna',
-0 silly argv   script: 'start' }
-1 notice cli v3.22.0
-2 verbose rootPath /Users/tom.moore/dev/lerna-root
-3 info versioning independent
-4 error JSONError: Unexpected token } in JSON at position 170 while parsing near '...t-dom": "latest",  },  "peerDependenci...' in ../my-ops/package.json
-4 error     at module.exports (/Users/tom.moore/dev/lerna-root/node_modules/parse-json/index.js:26:19)
-4 error     at parse (/Users/tom.moore/dev/lerna-root/node_modules/load-json-file/index.js:15:9)
+30 error Error: Command failed: git commit -F /private/var/folders/qc/g7w51c1j4px6q3x29msv2shw0000gp/T/17352b9d-ec30-4ce8-bdfd-c708aab6a67e/lerna-commit.txt
+30 error On branch master
+30 error Your branch is up to date with 'origin/master'.
+30 error
+30 error Changes not staged for commit:
+30 error 	modified:   packages/in2plane (modified content)
+30 error
+30 error no changes added to commit
+30 error
+30 error     at makeError (/Users/tom.moore/dev/lerna-root/node_modules/execa/index.js:174:9)
+30 error     at Promise.all.then.arr (/Users/tom.moore/dev/lerna-root/node_modules/execa/index.js:278:16)
